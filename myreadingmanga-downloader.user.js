@@ -4,7 +4,7 @@
 // @version      0.0.1
 // @license      AGPL License
 // @description  downloader
-// @author       coofo translatet by master-scripts
+// @author       master-scripts
 // @downloadURL  https://github.com/coofo/someScript/raw/main/tampermonkey/myreadingmanga.user.js
 // @supportURL   https://github.com/coofo/someScript/issues
 // @include      /^https://myreadingmanga.info/[a-z-]+/?/
