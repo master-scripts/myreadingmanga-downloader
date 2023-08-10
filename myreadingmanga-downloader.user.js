@@ -4,7 +4,7 @@
 // @version      0.0.1
 // @license      AGPL License
 // @description  downloader
-// @author       master-script
+// @author       master-scripts
 // @downloadURL  https://github.com/master-scripts/myreadingmanga-downloader/raw/main/myreadingmanga-downloader.user.js
 // @supportURL   https://github.com/master-scripts/myreadingmanga-downloader/issues
 // @include      /^https://myreadingmanga.info/[a-z-]+/?/
