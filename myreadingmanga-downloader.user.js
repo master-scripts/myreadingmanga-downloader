@@ -5,7 +5,7 @@
 // @license      AGPL License
 // @description  downloader
 // @author       master-scripts
-// @downloadURL  https://github.com/coofo/someScript/raw/main/tampermonkey/myreadingmanga.user.js
+// @downloadURL  https://github.com/master-scripts/myreadingmanga-downloader/raw/main/myreadingmanga-downloader.user.js
 // @supportURL   https://github.com/coofo/someScript/issues
 // @include      /^https://myreadingmanga.info/[a-z-]+/?/
 // @require      https://cdn.bootcss.com/jszip/3.1.5/jszip.min.js
