@@ -3,7 +3,7 @@
 // @namespace    https://github.com/coofo/someScript
 // @version      0.0.1
 // @license      AGPL License
-// @description  downloader
+// @description  myreadingmanga downloader
 // @author       master-scripts
 // @downloadURL  https://github.com/master-scripts/myreadingmanga-downloader/raw/main/myreadingmanga-downloader.user.js
 // @supportURL   https://github.com/master-scripts/myreadingmanga-downloader/issues
