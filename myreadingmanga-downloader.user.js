@@ -6,7 +6,7 @@
 // @description  downloader
 // @author       master-scripts
 // @downloadURL  https://github.com/master-scripts/myreadingmanga-downloader/raw/main/myreadingmanga-downloader.user.js
-// @supportURL   https://github.com/coofo/someScript/issues
+// @supportURL   https://github.com/master-scripts/myreadingmanga-downloader/issues
 // @include      /^https://myreadingmanga.info/[a-z-]+/?/
 // @require      https://cdn.bootcss.com/jszip/3.1.5/jszip.min.js
 // @require      https://greasyfork.org/scripts/442002-coofoutils/code/coofoUtils.js?version=1037847
