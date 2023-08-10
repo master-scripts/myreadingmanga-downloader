@@ -21,36 +21,36 @@
     //setting
     let setting = tools.setting;
     /**
-     * 文件名格式（包括路径）
-     * ${bookId}        漫画ID
-     * ${bookName}      漫画名
+     * File name format (including path)
+     * ${bookId}        Manga ID
+     * ${bookName}      manga name
      * ${selectType}    water/adult
-     * ${chapterId}     章节ID
-     * ${chapterName}   章节名
-     * ${index}         插图序号
+     * ${chapterId}     Chapter ID
+     * ${chapterName}   chapter name
+     * ${index}         Illustration number
      */
     setting.fileNameTemplate = "[myreadingmanga]/${bookName}/${chapter}/${index}";
     setting.fileNameTemplate0 = "[myreadingmanga]/${bookName}/${index}";
 
     /**
-     * zip文件名格式（包括路径）
+     * zip file name format (including path)
      */
     setting.zipNameTemplate = "[myreadingmanga]${bookName}";
 
     /**
-     * 下载线程数量
+     * Number of download threads
      * @type {number}
      */
     setting.threadNum = 5;
     /**
-     * 下载模式
-     * single：将图片文件单个下载（如果需要保存的文件有文件夹结构，则需要将tampermonkey下载模式调整为【浏览器API】）
-     * zip：将图片打成zip包下载
+     * Download mode
+     * single：Download the image files individually (if the files to be saved have a folder structure, you need to adjust the tampermonkey download mode to【Browser API】）
+     * zip：Download the image as a zip file
      */
     setting.downloadMode = "zip";
 
     /**
-     * 下载失败重试次数
+     * Download Failure Retries
      * @type {number}
      */
     setting.downloadRetryTimes = 2;
@@ -59,7 +59,7 @@
 
     console.log(GM_info.downloadMode);
     let h1 = document.querySelector("header.entry-header h1");
-    //首页基础信息
+    //HomeBasic Info
     let baseInfo = {
         bookName: h1.innerHTML
     };
