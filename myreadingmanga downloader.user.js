@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         myreadingmanga downloader translatet by master-scripts
+// @name         myreadingmanga downloader 
 // @namespace    https://github.com/coofo/someScript
 // @version      0.0.1
 // @license      AGPL License
