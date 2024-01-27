@@ -2,7 +2,7 @@
 // @name         myreadingmanga downloader 
 // @namespace    https://github.com/coofo/someScript
 // @version      0.0.1
-// @license      AGPL-3.0-or-later
+// @license      AGPL License
 // @description  myreadingmanga downloader
 // @author       master-scripts
 // @downloadURL  https://github.com/master-scripts/myreadingmanga-downloader/raw/main/myreadingmanga-downloader.user.js
@@ -11,6 +11,7 @@
 // @require      https://cdn.bootcss.com/jszip/3.1.5/jszip.min.js
 // @require      https://greasyfork.org/scripts/442002-coofoutils/code/coofoUtils.js?version=1037847
 // @connect      myreadingmanga.info
+// @icon         https://myreadingmanga.info/wp-content/themes/mrm/images/favicon.ico
 // @grant        GM_download
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
@@ -35,7 +36,7 @@
     /**
      * zip file name format (including path)
      */
-    setting.zipNameTemplate = "[myreadingmanga]${bookName}";
+    setting.zipNameTemplate = "${bookName}";
 
     /**
      * Number of download threads
